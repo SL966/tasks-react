@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body  {
+
+
+    background-color: black;
+    background-image: -webkit-gradient(radial, 50% 50%, 2, 50% 50%, 40, from(white), color-stop(0.1, rgba(248, 255, 128, .5)), to(transparent)),
+    -webkit-gradient(radial, 40% 40%, 1, 40% 40%, 30, from(white), color-stop(0.1, rgba(255, 186, 170, .4)), to(transparent)),
+    -webkit-gradient(radial, 40% 40%, 1, 40% 40%, 40, from(rgba(255, 255, 255, .9)), color-stop(0.05, rgba(251, 255, 186, .3)), to(transparent)),
+    -webkit-gradient(radial, 40% 40%, 0, 40% 40%, 30, from(rgba(255, 255, 255, .4)), color-stop(0.03, rgba(253, 255, 219, .2)), to(transparent));
+    background-size: 550px 550px, 350px 350px, 250px 270px, 220px 200px;
+    background-position: 0 0, 30px 60px, 130px 270px, 70px 150px;
+
 }
 
+/*margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;*/
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
