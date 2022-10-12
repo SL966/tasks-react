@@ -1,5 +1,82 @@
 
+.pre_junior {
+    text-decoration: none;
+    color: red;
+    margin: 20px;
+}
 
+.pre_junior:hover {
+    color: greenyellow;
+}
+
+.pre_junior:active {
+    color: blue;
+}
+
+.block {
+    width: 25px;
+    height: 25px;
+
+    margin: 15px;
+
+    background: #99ff99;
+}
+
+.header {
+    display: flex;
+    width: 330px;
+    transition-duration: 500ms;
+    transform: translate(-270px);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    align-items: center;
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0px);
+}
 .junior {
-    color:white;
+    color:coral;
+}
+
+.junior:hover {
+    color: greenyellow;
+}
+
+.junior:active {
+    color: blue;
+}
+
+.junior_plus {
+color:deepskyblue;
+}
+
+.junior_plus:hover {
+    color: greenyellow;
+}
+
+.junior_plus:active {
+    color: blue;
+}
+
+
+.rotate {
+    width: 25px;
+    height: 25px;
+    animation: rotation infinite 3s linear;
+
+
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }

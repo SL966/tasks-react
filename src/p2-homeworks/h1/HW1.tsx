@@ -5,7 +5,7 @@ import s from "./Message.module.css";
 
 const messageData = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Aртем',
+    name: 'Text',
     message: 'Здесь текст', //very long text to check for auto-hyphenation in a message...
     time: '22:00',
 };
