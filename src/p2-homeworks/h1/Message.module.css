@@ -1,0 +1,74 @@
+
+.container {
+    width: 100%;
+    padding: 10px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.avatar {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+    padding: 8px;
+    margin-top: auto;
+}
+
+.main {
+    position: relative;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px 10px 10px 0;
+    background: #4d5156;
+    color: #bbfbbc;
+}
+
+.main::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left,
+    transparent 49%, #4d5156 51%) no-repeat right bottom;
+}
+
+
+.name {
+    align-self: start;
+    color: #cc32bd;
+}
+
+.message {
+    word-wrap: break-word;
+    /*align-self: start;
+    color: black;*/
+}
+
+.time {
+    align-self: end;
+    text-align: right;
+    color: darkcyan;
+    padding: 5px;
+}
+.homeworks3 {
+    color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
