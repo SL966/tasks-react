@@ -2,7 +2,7 @@
 .pre_junior {
     text-decoration: none;
     color: red;
-    margin: 20px;
+    margin: 10px;
 }
 
 .pre_junior:hover {
@@ -25,12 +25,16 @@
     color:cyan;
 }
 
+.navigation:active {
+    color: coral;
+}
+
 
 .header {
     display: flex;
-    width: 330px;
-    transition-duration: 500ms;
-    transform: translate(-270px);
+    width: 620px;
+    transition-duration: 3000ms;
+    transform: translate(-530px);
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -39,7 +43,7 @@
 }
 
 .header:hover {
-    transition-duration: 500ms;
+    transition-duration: 1000ms;
     transform: translate(0px);
 }
 
@@ -69,7 +73,19 @@
     color: blue;
 }
 
+.junior_HW3 {
+    color: cornflowerblue;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
 
+.junior_HW3:hover {
+    color: greenyellow;
+}
+
+.junior_HW3:active {
+    color: blue;
+}
 .rotate {
     width: 25px;
     height: 25px;
