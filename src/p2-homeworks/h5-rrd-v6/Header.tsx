@@ -7,13 +7,15 @@ function Header() {
     return <>
         <div className={s.header}>
             <div>
-            <NavLink to={PATH.PRE_JUNIOR} className={s.pre_junior}  >pre-junior</NavLink>
+                <NavLink to={PATH.PRE_JUNIOR} className={s.pre_junior}>Pre-Junior :</NavLink>
             </div>
-            <NavLink to={PATH.JUNIOR} className={s.junior}>junior</NavLink>
-            <NavLink to={PATH.JUNIOR_PLUS} className={s.junior_plus}> junior plus </NavLink>
-            <div className={s.block} ><img src="https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png"
+            <div>
+                <NavLink to={PATH.JUNIOR} className={s.junior}>Junior</NavLink>
+            </div>
+            <NavLink to={PATH.JUNIOR_PLUS} className={s.junior_plus}>Junior plus</NavLink>
+            <div className={s.block}><img src="https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png"
                                           alt={'logo'}
-                                          className={s.rotate}/></div>
+                                          className={s.rotate}/><div className={s.navigation}>Navigation</div></div>
         </div>
     </>
 }

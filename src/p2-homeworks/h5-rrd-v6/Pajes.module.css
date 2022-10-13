@@ -14,13 +14,17 @@
 }
 
 .block {
+    border-radius: 6px;
     width: 25px;
     height: 25px;
-
     margin: 15px;
-
     background: #99ff99;
 }
+
+.navigation {
+    color:cyan;
+}
+
 
 .header {
     display: flex;
@@ -38,8 +42,10 @@
     transition-duration: 500ms;
     transform: translate(0px);
 }
+
 .junior {
-    color:coral;
+    color: coral;
+    margin-top: 20px;
 }
 
 .junior:hover {
@@ -51,7 +57,8 @@
 }
 
 .junior_plus {
-color:deepskyblue;
+    color: deepskyblue;
+    margin-top: 20px;
 }
 
 .junior_plus:hover {
@@ -79,4 +86,9 @@ color:deepskyblue;
     to {
         transform: rotate(360deg);
     }
+}
+
+.click {
+    margin-right: 30px;
+    color: white;
 }
