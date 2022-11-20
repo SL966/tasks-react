@@ -7,14 +7,23 @@ function Header() {
     return <>
         <div className={s.header}>
             <div>
-                <NavLink to={PATH.PRE_JUNIOR} className={s.pre_junior}>Pre-Junior :</NavLink>
+                <NavLink to={PATH.HOME} className={s.pre_junior}>Home :</NavLink>
             </div>
             <div>
-                <NavLink to={PATH.JUNIOR} className={s.junior}>Junior HW1</NavLink>
+                <NavLink to={PATH.JUNIOR} className={s.junior}>HW1</NavLink>
             </div>
-            <NavLink to={PATH.JUNIOR_PLUS} className={s.junior_plus}>Junior plus</NavLink>
+            <NavLink to={PATH.JUNIOR_PLUS} className={s.junior_plus}>HW2</NavLink>
             <div>
-                <NavLink to={PATH.JUNIOR_HW3} className={s.junior_HW3}>Junior HW3</NavLink>
+                <NavLink to={PATH.JUNIOR_HW3} className={s.junior_HW3}>HW3</NavLink>
+            </div>
+            <div>
+                <NavLink to={PATH.JUNIOR_HW4} className={s.HW4}>HW4</NavLink>
+            </div>
+            <div>
+                <NavLink to={PATH.HOME_WORKS_HW6} className={s.HW6}>HW6</NavLink>
+            </div>
+            <div>
+                <NavLink to={PATH.HOME_WORKS_HW7} className={s.HW7}>HW7</NavLink>
             </div>
             <div className={s.block}><img src="https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png"
                                           alt={'logo'}

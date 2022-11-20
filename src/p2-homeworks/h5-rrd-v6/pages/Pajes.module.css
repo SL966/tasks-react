@@ -17,12 +17,12 @@
     border-radius: 6px;
     width: 25px;
     height: 25px;
-    margin: 15px;
+    margin: 25px;
     background: #99ff99;
 }
 
 .navigation {
-    color:cyan;
+    color: cyan;
 }
 
 .navigation:active {
@@ -34,12 +34,12 @@
     display: flex;
     width: 620px;
     transition-duration: 3000ms;
-    transform: translate(-530px);
+    transform: translate(-500px);
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-content: flex-end;
-    align-items: center;
+    align-items: baseline;
 }
 
 .header:hover {
@@ -76,7 +76,7 @@
 .junior_HW3 {
     color: cornflowerblue;
     margin-top: 20px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .junior_HW3:hover {
@@ -86,6 +86,48 @@
 .junior_HW3:active {
     color: blue;
 }
+
+.HW4 {
+    color: darkkhaki;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.HW4:hover {
+    color: cornflowerblue;
+}
+
+.HW4:active {
+    color: greenyellow;
+}
+
+.HW6 {
+    color:cyan;
+}
+.HW6:hover {
+    color: cornflowerblue;
+}
+
+.HW7 {
+    color:darkviolet;
+}
+.HW7:hover {
+    color: cornflowerblue;
+}
+
+.Page404 {
+    color:darkorange;
+}
+
+.home_page {
+    color:coral;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+
 .rotate {
     width: 25px;
     height: 25px;
