@@ -1,9 +1,11 @@
 import {loadingReducer} from './loadingReducer'
 import {combineReducers} from "redux";
 import {configureStore} from "@reduxjs/toolkit";
+import {homeWorkReducer} from "../../h8/bll/homeWorkReducer";
 
 const rootReducer = combineReducers({
     loading: loadingReducer,
+    homeWork: homeWorkReducer
 
 })
 

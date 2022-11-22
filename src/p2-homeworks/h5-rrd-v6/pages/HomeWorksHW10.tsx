@@ -1,13 +1,13 @@
 import React from 'react';
 import s from './Pajes.module.css'
-import HW9 from "../../h9/HW9";
+import HW10 from "../../h10/HW10";
 
 
 const HomeWorksHW7 = () => {
     return (
-        <div className={s.HW9}>
-             HW9
-            <HW9/>
+        <div className={s.HW10}>
+             HW10
+            <HW10/>
         </div>
     );
 };

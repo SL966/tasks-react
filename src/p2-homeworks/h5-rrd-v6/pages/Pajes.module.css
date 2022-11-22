@@ -48,7 +48,7 @@
 
 .header {
     display: flex;
-    width: 590px;
+    width: 580px;
     transition-duration: 3000ms;
     transform: translate(-500px);
     flex-direction: row;
@@ -140,6 +140,13 @@
     margin-top: 50px;
 }
 .HW9:hover {
+    color: cornflowerblue;
+}
+.HW10 {
+    color: gold;
+    margin-top: 50px;
+}
+.HW10:hover {
     color: cornflowerblue;
 }
 

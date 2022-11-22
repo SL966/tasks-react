@@ -1,4 +1,9 @@
-export const homeWorkReducer = (state: any, action: any): any => { // need to fix any
+
+export type InitialStateType = typeof initialState
+
+let initialState = {}
+
+export const homeWorkReducer = (state = initialState, action: any): any => { // need to fix any
     switch (action.type) {
         case 'sort': {
             // need to fix

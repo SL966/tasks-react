@@ -7,7 +7,6 @@ const Junior = () => {
     return (
         <div className={s.HW4}>
              HW4
-
             <HW4/>
         </div>
     );

@@ -1,0 +1,25 @@
+
+.HW_8_container {
+    color: white;
+    display: grid;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hr {
+    width: 900px;
+}
+
+.homeworks_8 {
+    margin-top: 30px
+}
+
+.finalPeople {
+    margin-top: 30px
+}
