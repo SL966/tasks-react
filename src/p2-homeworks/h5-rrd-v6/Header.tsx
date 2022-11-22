@@ -25,6 +25,9 @@ function Header() {
             <div>
                 <NavLink to={PATH.HOME_WORKS_HW7} className={s.HW7}>HW7</NavLink>
             </div>
+            <div>
+                <NavLink to={PATH.HOME_WORKS_HW9} className={s.HW9}>HW9</NavLink>
+            </div>
             <div className={s.block}><img src="https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png"
                                           alt={'logo'}
                                           className={s.rotate}/><div className={s.navigation}>Navigation</div></div>
