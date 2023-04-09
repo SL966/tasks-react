@@ -1,16 +1,14 @@
-import React, {useState} from 'react'
-import s from './Pajes.module.css'
-import HW8 from "../../h8/HW8";
-
+import React from "react";
+import s from "./Pajes.module.css";
 
 function HomePage() {
 
-    return <div>
-        <div className={s.home_page} >Home page</div>
-        <HW8/>
-
+  return (
+    <div>
+      <div className={s.home_page}>Home page</div>
     </div>
+  );
 }
 
-export default HomePage
+export default HomePage;
 

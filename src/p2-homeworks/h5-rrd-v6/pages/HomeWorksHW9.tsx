@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Pajes.module.css'
-import HW9 from "../../h9/HW9";
+import HW9 from "../../h9/Clock";
 
 
 const HomeWorksHW7 = () => {

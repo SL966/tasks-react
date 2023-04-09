@@ -26,6 +26,9 @@ function Header() {
                 <NavLink to={PATH.HOME_WORKS_HW7} className={s.HW7}>HW7</NavLink>
             </div>
             <div>
+                <NavLink to={PATH.HOME_WORKS_HW8} className={s.HW4}>HW8</NavLink>
+            </div>
+            <div>
                 <NavLink to={PATH.HOME_WORKS_HW9} className={s.HW9}>HW9</NavLink>
             </div>
             <div>
