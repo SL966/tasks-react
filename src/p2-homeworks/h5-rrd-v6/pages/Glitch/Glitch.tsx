@@ -6,11 +6,12 @@ const Glitch = () => {
 
 
     return (
-        <div className='root'>
-            <div className='container'>
-                <div className="glitch">GLITCH</div>
-            </div>
+      <div id="app">
+        <div id="wrapper">
+          <h1 className="glitch" data-text="Home page">Home page</h1>
+          <span className="sub">START</span>
         </div>
+      </div>
     );
 };
 
